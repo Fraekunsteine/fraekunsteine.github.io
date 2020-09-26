@@ -10,16 +10,14 @@ body {
   background-color: #58990D;
 }
 .header img {
-  display: inline;
+  position: absolute;
   height: 150px;
 }
-.top-level h1 {
-  display: inline;
-  text-align: center;
-  position: relative;
-  top: -50%;
-  color: white;
-  font: 42px Cooper, serif;
+#pic1 {
+  left: 10%;
+}
+#pic2 {
+  right: 10%;
 }
 .header h1 {
   text-align: center;
@@ -69,19 +67,22 @@ body {
   font: 24px Georgia, sans-serif;
 }
 .content p {
-  text-align: center;
   padding: 10px 20px;
   font: 16px Georgia, sans-serif;
 }
+.content li {
+  font: 16px Georgia, sans-serif;
+}
 .content table {
+  margin: auto;
   border: 3px groove #EBAA52;
   border-radius: 5px;
 }
-.content tr:nth-child(1) {
-  background-color: #45AD00;
-}
 .content tr {
   background-color: #A3EC03;
+}
+.content tr:nth-child(1) {
+  background-color: #45AD00;
 }
 .content tr:nth-child(2n) {
   color: black;
