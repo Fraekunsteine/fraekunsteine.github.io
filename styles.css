@@ -13,11 +13,18 @@ body {
   display: inline;
   height: 150px;
 }
-.header h1 {
+.top-level h1 {
   display: inline;
   text-align: center;
   position: relative;
-  top: -40%;
+  top: -50%;
+  color: white;
+  font: 42px Cooper, serif;
+}
+.header h1 {
+  text-align: center;
+  position: relative;
+  top: 40%;
   color: white;
   font: 42px Cooper, serif;
 }
@@ -53,8 +60,39 @@ body {
   margin: auto;
   background-color: white;
 }
-.content p {
+.content img {
+  width: 100%;
+}
+.content h1 {
   text-align: center;
   padding: 50px 20px;
   font: 24px Georgia, sans-serif;
+}
+.content p {
+  text-align: center;
+  padding: 10px 20px;
+  font: 16px Georgia, sans-serif;
+}
+.content table {
+  border: 3px groove #EBAA52;
+  border-radius: 5px;
+}
+.content tr:nth-child(1) {
+  background-color: #45AD00;
+}
+.content tr {
+  background-color: #A3EC03;
+}
+.content tr:nth-child(2n) {
+  color: black;
+  background-color: #E2C852;
+}
+.content th {
+  text-align: center;
+  color: white;
+  font: bold 16px Georgia, sans-serif;
+}
+.content td {
+  text-align: left;
+  font: 14px Georgia, sans-serif;
 }
