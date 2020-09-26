@@ -10,11 +10,9 @@ body {
   height: 150px;
   background-color: #58990D;
 }
-
 .header img {
   height: 100%;
 }
-
 .header h1 {
   text-align: center;
   position: relative;
@@ -54,7 +52,6 @@ body {
   margin: auto;
   background-color: white;
 }
-
 .content p {
   padding: 16px;
   padding:
